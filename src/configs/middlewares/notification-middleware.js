@@ -1,6 +1,5 @@
 import { toast } from 'react-toastify';
-import { isFulfilledAction, isRejectedAction } from 'app/shared/reducers/reducer.utils';
-
+import { isFulfilledAction, isRejectedAction } from 'src/shared/reducers/reducer.utils';
 const addErrorAlert = (message, key, data) => {
   // key = key ? key : message;
   // toast.error(translate(key, data));
